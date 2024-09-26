@@ -7,8 +7,8 @@ function App() {
    <>
     <div className="w-screen h-screen">
       <Home />
-      <Footer/>
       <Content/>
+      <Footer/>
     </div>
    </>
   );

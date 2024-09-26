@@ -1,10 +1,18 @@
-import Footer from "./Components/Footer";
-import React from 'react';
 
+
+
+
+
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import React from 'react';
 function App() {
   return (
    <>
-      <Footer/>
+    <div className="w-screen h-screen">
+    <Home />
+     <Footer/>
+    </div>
    </>
   );
 }
